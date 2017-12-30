@@ -1,0 +1,139 @@
+/* Logo */
+.icon {
+  float: left;
+  position: absolute;
+  padding: 2%;
+}
+
+.icon img {
+  width: 140px;
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  width: 100vw;
+  position: absolute;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1.2em;
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,0));
+}
+
+.header .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 8vh;
+  padding: 10px;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu a {
+  color: white;
+}
+
+.menu a:hover {
+	text-decoration: none;
+  color: white;
+}
+
+.btn-link {
+  color: white;
+  font-size: 1em;
+}
+
+.btn-link:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Dropdown */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* Mobile Menu */
+.header-mobile {
+  width: 100vw;
+  position: absolute;
+}
+
+.header-mobile .menu-mobile {
+  float: right;
+  padding: 3%;
+  margin-right: 2vh;
+}
+
+.menu-mobile img {
+  width: 35px;
+  max-width: 100%;
+}
+
+
+/* Jumbotron */
+.vid-container {
+  width: 100vw;
+  height: 94vh;
+  color: white;
+  padding: 5%;
+  -webkit-align-items: flex-end;
+     -moz-align-items: flex-end;
+          align-items: flex-end;
+  -webkit-align-content: flex-end;
+     -moz-align-content: flex-end;
+          align-content: flex-end;
+}
+
+video {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  /* max-width: 100%;
+  min-height: 100%; */
+  /* max-height: 120%; */
+  height: 121vh;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.main-content {
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+/* Flexbox for Positioning */
+.flex-container {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

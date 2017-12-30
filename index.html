@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UAVS</title>
+    <link rel="shortcut icon" href="img\icon.ico" type="image/x-icon">
+    <link rel="icon" href="img\icon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="icon">
+      <a href="index.html"><img src="img\logo.png"></a>
+    </div>
+
+    <div class="header hidden-xs">
+      <ul class="menu">
+        <li class="dropdown">
+          <a href="#"><button class="btn btn-link">About Us &#9662;</button></a>
+          <ul class="dropdown-menu">
+            <li><a href="#who">Who we are</a></li>
+            <li><a href="#what">What we do</a></li>
+            <li><a href="#">How to join</a></li>
+            <li><a href="#">Become a sponsor</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Chapters</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Log In</a></li>
+      </ul>
+    </div>
+
+    <div class="header-mobile visible-xs-inline-block">
+      <div class="menu-mobile">
+        <a href="#"><img src="img\menu.png"></a>
+      </div>
+    </div>
+
+    <div class="vid-container flex-container">
+      <video poster="img\header.png" id="bgvid" playsinline autoplay muted loop>
+        <source src="vid\demo.webm" type="video/webm">
+        <source src="vid\demo.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <h1>This is a brief and inspiring statement of who we are.</h1>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h1 id="who">Who We Are</h1>
+      <h3>Talk about who we are here.</h3>
+      <br>
+      <h1 id="what">What We Do</h1>
+      <h3>Talk about what we do here.</h3>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
